@@ -4,18 +4,18 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		
-		<link href="./_app/immutable/assets/0.LNIBVUkm.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/5.CCplrnuM.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CWli8fs3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Q5IMYk5_.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CcMS3Mw0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.CiBn7g07.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.D4tQO5C6.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.Dtc04KBN.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.DHrU2ByC.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/each.DdyD-znN.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.PwgvMzYK.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/5.6kHEG5Ew.js">
+		<link href="./app/immutable/assets/0.LNIBVUkm.css" rel="stylesheet">
+		<link href="./app/immutable/assets/5.CCplrnuM.css" rel="stylesheet">
+		<link rel="modulepreload" href="./app/immutable/entry/start.CWli8fs3.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/entry.Q5IMYk5_.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/scheduler.CcMS3Mw0.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/index.CiBn7g07.js">
+		<link rel="modulepreload" href="./app/immutable/entry/app.D4tQO5C6.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/index.Dtc04KBN.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/0.DHrU2ByC.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/each.DdyD-znN.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/2.PwgvMzYK.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/5.6kHEG5Ew.js">
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
@@ -46,8 +46,8 @@ poetry run 01</code></pre> <p><br></p> <p><sup>This API was designed in Seattle 
 					const data = [null,null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.CWli8fs3.js"),
-						import("./_app/immutable/entry/app.D4tQO5C6.js")
+						import("./app/immutable/entry/start.CWli8fs3.js"),
+						import("./app/immutable/entry/app.D4tQO5C6.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2, 5],
